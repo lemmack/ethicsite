@@ -38,7 +38,7 @@ ul{
 header{
     background:#35424a;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 24px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
@@ -55,12 +55,17 @@ header li{
     padding: 0 20px 0 20px;
 }
 
+header ul{
+    /* padding-top: 4px; */
+}
+
 header #branding{
     float: left;
 }
 
 header #branding h1{
-    margin:0;
+    margin:6px 0 0 0;
+    float: left;
 }
 
 header nav{
@@ -76,6 +81,12 @@ header .highlight, header .current a{
 header a:hover{
     color:#ccc;
     font-weight:bold;
+}
+
+header #keylogo{
+    margin-right: 10px;
+    height: 60px;
+    float:left;
 }
 
 /* Showcase */
@@ -164,7 +175,6 @@ ul#services li{
 }
 
 /* Footer */
-
 footer{
     margin-top: 20px;
     padding: 20px;
@@ -175,7 +185,6 @@ footer{
 }
 
 /* Media Queries */
-
 @media(max-width: 768px){
     header #branding,
     header nav,
