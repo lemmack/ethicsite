@@ -24,6 +24,7 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
     color: #fff;
+    font-size: 16px;
 }
 
 .dark {
@@ -128,6 +129,7 @@ header #keylogo{
     padding: 4px;
     height: 25px;
     width: 250px;
+    font-size: 16px;
 }
 
 /* Boxes */
@@ -154,9 +156,14 @@ aside#sidebar{
     margin-top: 10px;
 }
 
+aside#sidebar .quote textarea::placeholder {
+    font-size: 16px;
+}
+
 aside#sidebar .quote input, aside#sidebar .quote textarea{
     width:90%;
     padding: 5px;
+
 }
 
 /* Article */
